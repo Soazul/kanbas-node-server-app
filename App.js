@@ -1,10 +1,11 @@
 // const express = require('express') // equivalent to import
 import express from "express";
 import Hello from "./Hello.js";
-import Lab5 from "./index.js";
+import Lab5 from "./Lab5/index.js";
 import CourseRoutes from "./Kanbas/Courses/routes.js";
-import ModuleRoutes from "./Kanbas/Courses/Modules/routes.js";
-import AssignmentRoutes from "./Kanbas/Courses/Assignments/routes.js";
+import ModuleRoutes from "./Kanbas/Modules/routes.js";
+import AssignmentRoutes from "./Kanbas/Assignments/routes.js";
+
 import cors from "cors";
 const app = express(); // create new express instance
 app.use(cors());
